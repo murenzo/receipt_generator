@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require_relative '../../../lib/receipt_generator/receipt_item'
-require_relative '../../../lib/receipt_generator/products/local/book'
 
 RSpec.describe ReceiptGenerator::ReceiptItem do
   let(:quantity) { 4 }
