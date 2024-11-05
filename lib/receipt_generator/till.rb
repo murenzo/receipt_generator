@@ -47,7 +47,7 @@ module ReceiptGenerator
     end
 
     def print_cart_total
-      puts "Total #{@receipt_list.receipt_items.map(&:total_cost).sum.round(2)}"
+      puts "Total: #{@receipt_list.receipt_items.map(&:total_cost).sum.round(2)}"
     end
 
     def generate_receipt_item(cart_item)
